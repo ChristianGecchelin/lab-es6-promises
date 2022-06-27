@@ -4,6 +4,7 @@
 
 // Promise based function
 function obtainInstruction(food, step) {
+  debugger;
   return new Promise((resolve, reject) => {
     setTimeout(() => {
       // Get the instruction string

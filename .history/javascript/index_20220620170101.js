@@ -139,7 +139,7 @@ obtainInstruction("steak", 0)
   .then((step7) => {
     document.querySelector("#steak").innerHTML += `<li>${step7}</li>`;
     document.querySelector("#steak").innerHTML += `<li>Steak is ready!</li>`;
-    document.querySelector("#steakImg").removeAttribute("hidden");
+    document.querySelector("#mashedPotatoesImg").removeAttribute("hidden");
   })
   .catch((error) => {
     console.log(error);
@@ -156,7 +156,6 @@ async function makeBroccoli() {
     document.querySelector(
       "#broccoli"
     ).innerHTML += `<li>Broccoli is ready!</li>`;
-    document.querySelector("#broccoliImg").removeAttribute("hidden");
   } catch (err) {
     // pero si fallo, ejecuto esta parte
     console.log(err);
